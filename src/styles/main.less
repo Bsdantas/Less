@@ -8,12 +8,12 @@
     margin-bottom: 8px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: roboto, sans-serif;
+* {
+  font-family: 'Lexend', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
+
 
 body{
     background-color: #colors[background-color];
@@ -47,6 +47,8 @@ li{
         padding-bottom: 24px;
 
         .profile-avatar{
+            width: 100px;
+            height: 100px;
            display: block;
            margin: 0 auto 24px;
            border-radius: 100px;
@@ -88,7 +90,7 @@ li{
 
     .projects-list{
         &-item{
-            margin-top: 32px;
+            margin-top: 23px;
             a{
                 text-decoration: none;
                 background-color: #colors[buttonColor];
@@ -100,7 +102,7 @@ li{
                 font-weight: bold;
                 border-radius: 30px;
                 border: 2px solid #colors[buttonColor];
-                transition: all ease .5s;
+                transition: color 0.4s ease;
 
                 &:hover{
                     color: #colors[buttonColor];
